@@ -48,7 +48,9 @@ export default class FixMeNavbar extends React.Component<
                   About
                 </NavLink>
               </NavItem>
-              {/* facebook
+              <NavItem>
+                <input type="text" name="name" placeholder="find projects here.."/>
+              </NavItem>
                <NavItem>
                 <a className="nav-link" target="_blank" href="#">
                   <svg
@@ -65,7 +67,6 @@ export default class FixMeNavbar extends React.Component<
                   </svg>
                 </a>
               </NavItem>
-             */}
               <NavItem>
                 <OutboundLink
                   className="nav-link"
